@@ -24,7 +24,7 @@ PERL := perl
 RM := rm
 SED := sed
 TAR := tar
-WGET := wget -q
+WGET := wget --no-check-certificate -q
 
 ZIMBRA_HOME ?= /opt/zimbra
 OZC ?= $(ZIMBRA_HOME)/common
